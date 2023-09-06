@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2.1-style</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 350px;
+            padding: 0px;
+            overflow: hidden;
+            height: 40px;
+            width:  300px;
+            padding-right: 70px;
+            padding-left: 31px;
+            border-width: thin;
+            border-color: black;
+            border-style: solid;
+            padding-right: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 9px;
+            text-decoration: none;
+            background-color: lightgray;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #ddd;
+          }
+          
+          li a.active {
+            color: white;
+            background-color: gray;
+          }
+          li {
+            border-right: 1px solid blue;
+          }
+          li:last-child {
+            border-right: none;
+          }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a id="i1" href="#css">CSS</a></li>
+        <li><a  href="#bootstrap">Bootstrap</a></li>
+      </ul>
+      
+</body>
+</html>
